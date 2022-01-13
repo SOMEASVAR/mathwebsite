@@ -87,7 +87,6 @@ Publish the website in the given URL.
             font-size: 25px;
             margin-top: 5px;
             margin-bottom: 5px;
-
         }
         .content2{
             display: block;
@@ -102,9 +101,7 @@ Publish the website in the given URL.
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 </style>
-
 </head>
-
 <body>
     <div class="container">
         <div class="content">
