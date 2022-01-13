@@ -35,59 +35,41 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-
+~~~
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Page for Mathematical Calculations</title>
-  </head>
-  <body>
-    <center><h1>WEB PAGE FOR MATHEMATICAL CALCULATIONS:</h1></center>
-    <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mathematical Calculations</title>
-
     <style>
-
         *{
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
-
         }
         body{
-            background-color:#18f1f8;
+            background-color:#DEE692;
             color:yelloww;
-
         }
         .container{
             width: 1080px;
             margin-left: auto;
             margin-right: auto;
-            background-color: #18f1f8;
+            background-color: #DEE692;
             border:#540688;
-
         }
         .content{
             display: block;
             width: 100%;
-            background-color:#8a1276;
+            background-color:#E69B90;
             margin-top: 40px;
             min-height: 400px;
-            
         }
         .text{
             text-align: center;
             padding-top: 50px;
             text-decoration: underline;
-
         }
         .formelement{
             text-align: center;
@@ -230,11 +212,10 @@ Publish the website in the given URL.
         });
 
     </script>
-    <footer> <p class="by"><B>Developed by : R.SOMEASVAR(21500795) </B></p></footer>
+    <footer> <p class="by"><B>Developed by : S.Sham Rathan </B></p></footer>
 </body>
 </html>
-  </body>
-</html>
+~~~
 
 
 ## OUTPUT:
