@@ -111,7 +111,6 @@ Publish the website in the given URL.
                     <input type="number" id="aEdit" value="0"/>
                     <lable for="aedit">Meters</lable>
                 </div><br>
-                
                 <div class="formelement">
                     <label for="bEdit">Height:</label>
                     <input type="number" id="bEdit" value="0"/>
@@ -120,17 +119,14 @@ Publish the website in the given URL.
                 <div class="formelement">
                     <input type="button" value="Calculate" id="AddButton"/>
                 </div>
-                
                 <div class="formelement">
                     <label for="cEdit">Area:</label>
                     <input type="text" id="cEdit" value="0" readonly />
                     <lable for="aedit">Meter<sup>2</sup></lable>
                 </div><br>
-                <div class=formelement>
-                   
+                <div class=formelement>  
                 </div>
             </form>
-
         </div>
         <div class="content2">
             <h1 class="text">Volume of the Cone</h1>
@@ -139,7 +135,6 @@ Publish the website in the given URL.
                     <input type="number" id="hEdit" value="0"/>
                     <lable for="aedit">Meters</lable>
                 </div><br>
-                
                 <div class="formelement">
                     <label for="rEdit">Radius:</label>
                     <input type="number" id="rEdit" value="0"/>
@@ -148,18 +143,14 @@ Publish the website in the given URL.
                 <div class="formelement">
                     <input type="button" value="Calculate" id="AddButton1"/>
                 </div>
-                
                 <div class="formelement">
                     <label for="vEdit">Volume:</label>
                     <input type="number" id="vEdit" value="0" readonly />
                     <lable for="aedit">Meter<sup>3</sup></lable>
                 </div><br>
                 <div class="formelement">
-                 
-                    </div><br>
-                   
+                    </div><br> 
             </form>
-
         </div>
     </div>
     <script>
@@ -187,18 +178,16 @@ Publish the website in the given URL.
         }
        
         }
-    </script>
+ </script>
     <script type="text/javascript">
         var button,button1;
         button = document.querySelector("#AddButton");
-        
         button.addEventListener("click",function(){
             var aText,bText,cText;
             var aVal,bVal,cVal;
             aText=document.querySelector("#aEdit");
             bText=document.querySelector("#bEdit");
             cText=document.querySelector("#cEdit");
-
             aVal = parseInt(aText.value);
             bVal = parseInt(bText.value);
             cVal = (aVal*bVal)/2;
@@ -211,14 +200,13 @@ Publish the website in the given URL.
             hText=document.querySelector("#hEdit");
             rText=document.querySelector("#rEdit");
             vText=document.querySelector("#vEdit");
-
             hVal = parseInt(hText.value);
             rVal = parseInt(rText.value);
             vVal = (22/7*rVal*rVal)*(hVal/3);
             vText.value = ""+vVal;
         });
 
-    </script>
+ </script>
     <footer> <p class="by"><B>Developed by : R.SOMEASVAR(21500795) </B></p></footer>
 </body>
 </html>
