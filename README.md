@@ -39,6 +39,7 @@ Publish the website in the given URL.
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>WEB PAGE FOR MATHEMATICAL CALCULATIONS</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,20 +50,20 @@ Publish the website in the given URL.
             font-family: Arial, Helvetica, sans-serif;
         }
         body{
-            background-color:#DEE692;
+            background-color:#0bdada;
             color:yelloww;
         }
         .container{
             width: 1080px;
             margin-left: auto;
             margin-right: auto;
-            background-color: #DEE692;
+            background-color: #0bdada;
             border:#540688;
         }
         .content{
             display: block;
             width: 100%;
-            background-color:#E69B90;
+            background-color:#7a0471;
             margin-top: 40px;
             min-height: 400px;
         }
@@ -220,7 +221,7 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 
-![OUTPUT](./output.png)
+![OUTPUT](./output1.png)
 
 ## Result:
 
