@@ -54,13 +54,16 @@ Publish the website in the given URL.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mathematical Calculations</title>
     <style>
+        
         *{
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
+
         }
         body{
             background-color:#18f1f8;
             color:yelloww;
+
         }
         .container{
             width: 1080px;
@@ -68,6 +71,7 @@ Publish the website in the given URL.
             margin-right: auto;
             background-color: #18f1f8;
             border:#540688;
+
         }
         .content{
             display: block;
@@ -75,11 +79,13 @@ Publish the website in the given URL.
             background-color:#8a1276;
             margin-top: 40px;
             min-height: 400px;
+            
         }
         .text{
             text-align: center;
             padding-top: 50px;
             text-decoration: underline;
+
         }
         .formelement{
             text-align: center;
