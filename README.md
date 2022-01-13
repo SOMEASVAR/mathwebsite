@@ -101,7 +101,7 @@ Publish the website in the given URL.
             color: black(245, 240, 240);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
-    </style>
+</style>
 
 </head>
 
